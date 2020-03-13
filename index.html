@@ -24,6 +24,26 @@
         } else if (num === 2)
         alert('The computer chose: S');
 
+        if (player === 'R' && num === 0) {
+            alert('You tied!');
+        } else if (player === 'P' && num === 1) {
+            alert('You tied!');
+        } else if (player === 'S' && num === 2) {
+            alert('You tied!');
+        } else if (player === 'R' && num === 1) {
+            alert ('You lost.');
+        } else if (player === 'R' && num === 2) {
+            alert ('You won!');
+        } else if (player === 'P' && num === 0) {
+            alert ('You won!');
+        } else if (player === 'P' && num === 2) {
+            alert ('You lost.');
+        } else if (player === 'S' && num === 0) {
+            alert ('You lost.');
+        } else if (player === 'S' && num === 1) {
+            alert ('You won!');
+        }
+
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
